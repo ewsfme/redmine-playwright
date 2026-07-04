@@ -11,7 +11,7 @@
    git clone https://github.com/ewsfme/redmine-playwright.git
 2. Navigate to the project root directory:
    ```bash
-   cd task2
+   cd redmine-test
 3. Install all required dependencies:
    ```bash
    npm install
@@ -26,7 +26,7 @@ Ensure that your valid test credentials are added to the created .env file befor
    ```
    npx playwright test --headed
 
-    To open the Playwright UI mode:
+3. To open the Playwright UI mode:
    ```
    npx playwright test --ui
 
